@@ -1,0 +1,5 @@
+---
+# tasks file for zimbra_server_monitor
+
+- name: Add configuration code to files override.conf and zimbra.conf
+  import_tasks: server_monitoring_zimbra.yaml
